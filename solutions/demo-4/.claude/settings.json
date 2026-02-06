@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "write_to_file|create_file",
+        "hook": ".claude/hooks/validate-runbook.sh"
+      }
+    ]
+  }
+}
